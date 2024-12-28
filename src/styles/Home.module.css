@@ -1,0 +1,318 @@
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.heroText {
+  flex: 1;
+  background-color: #e2f5fb;
+  padding: 10px 10px 50px;
+}
+
+.heroText h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #003569;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80%;
+  margin: auto;
+}
+
+.headerLeft {
+  margin-top: 80px;
+  max-width: 150px;
+}
+
+.headerLeft h2 {
+  color: #244c59;
+  font-weight: bold;
+}
+
+.headerLeft p {
+  color: gray;
+}
+
+.headerRight {
+  margin-top: 50px;
+  max-width: 150px;
+}
+
+.headerRight div {
+  margin-bottom: 20px;
+}
+
+.headerRight div h3 {
+  color: #244c59;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.headerRight div p {
+  color: #aab3b6;
+}
+
+.button {
+  background-color: #17414f;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.heroImage {
+  flex: 1;
+  max-width: 300px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px !important;
+  margin: 40px auto;
+  background-color: #17414f;
+  color: white;
+  flex-wrap: wrap;
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.featureCard {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.featureCard img {
+  width: 100px;
+  height: 100px;
+  margin-top: -60px;
+  margin-left: 50px;
+}
+
+.featureCard p {
+  margin-top: 10px;
+  color: #788d93;
+  max-width: 200px;
+  font-size: 0.8rem;
+}
+
+/* Ingredients Section */
+.ingredients {
+  text-align: center;
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.ingredientsHeader {
+  margin: 10px;
+  text-align: left;
+  max-width: 330px;
+}
+
+.ingredientsHeader h3 {
+  font-size: 0.8rem;
+  color: #305a85;
+}
+
+.ingredientsHeader h2 {
+  color: #17414f;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.ingredientsHeader p {
+  color: #afafaf;
+  font-size: 0.8rem;
+}
+
+.ingredientCard {
+  background-color: #e2f5fb;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+}
+
+.ingredientCard h3 {
+  color: #2d3f59;
+  font-weight: bold;
+}
+
+.ingredientCard img {
+  width: 150px;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 0px;
+}
+
+.ingredientCard p {
+  margin-top: 10px;
+  color: #b8c3c8;
+  font-size: 0.9rem;
+  max-width: 180px;
+}
+
+.ingredientCard a {
+  margin-top: 120px;
+  font-size: 0.8rem;
+  color: #557da0;
+  font-weight: 600;
+  text-decoration: underline;
+  position: absolute;
+  left: 10px;
+  top: 20%;
+}
+
+/* Latest News Section */
+.news {
+  text-align: center;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.news h3 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #003569;
+}
+
+.news h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #17414f;
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.newsGrid div span {
+  position: relative;
+}
+
+.newsGrid div p {
+  position: absolute;
+  top: 10%;
+  background-color: #003569;
+  color: white;
+  padding: 5px 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.newsGrid img {
+  width: 90%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.img1 {
+  width: 100%;
+  height: 300px;
+}
+
+.img2 {
+  width: 100%;
+  height: 150px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 50px;
+  background-color: #17414f;
+  color: white;
+}
+
+.footerDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px !important;
+  max-width: 90%;
+  margin: auto;
+}
+
+.footer div span {
+  background-color: #215d72;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer div p {
+  max-width: 400px;
+  font-size: 0.8rem;
+  color: #c5cfd3;
+  text-align: left;
+}
+
+.footerText {
+  text-align: start;
+  color: #c5cfd3;
+  font-size: 0.9rem;
+  max-width: 90%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .hero,
+  .header,
+  .footer div span,
+  .footerDiv {
+    display: block;
+  }
+
+  .heroImage {
+    max-width: 100%;
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+  .footer div span {
+    margin: 10px 0px;
+  }
+
+  .msg {
+    margin-top: 30px;
+  }
+
+  .newsGrid img {
+    width: 100%;
+  }
+}
