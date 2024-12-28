@@ -184,7 +184,7 @@
   font-weight: 600;
   text-decoration: underline;
   position: absolute;
-  left: 10px;
+  left: 20px;
   top: 20%;
 }
 
@@ -291,9 +291,26 @@
 @media screen and (max-width: 768px) {
   .hero,
   .header,
-  .footer div span,
   .footerDiv {
     display: block;
+  }
+
+  .headerLeft {
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .headerRight {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .headerRight p {
+    max-width: 130px;
   }
 
   .heroImage {
@@ -312,7 +329,12 @@
     margin-top: 30px;
   }
 
-  .newsGrid img {
+  .newsGrid img,
+  .ingredientCard {
     width: 100%;
+  }
+
+  .ingredientCard img {
+    margin-left: 100px;
   }
 }
